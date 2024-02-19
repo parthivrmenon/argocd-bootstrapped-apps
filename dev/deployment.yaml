@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: k8s-whoami
-  namespace: k8s-whoami 
 spec:
   replicas: 3
   selector:
